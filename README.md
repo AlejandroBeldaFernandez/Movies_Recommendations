@@ -20,8 +20,34 @@ cold start behavior documented rather than hidden.
 
 ---
 
+## Live demo
+
+**[Try it live on Hugging Face Spaces](https://huggingface.co/spaces/Alessandrou24/movie__Recommender)**
+
+Pick one or more movies and compare what the three models recommend side by side, or describe a
+movie that isn't in the catalog for a content based match.
+
+> **If the Space is slow to load or shows an error, be patient before assuming it's broken.** It
+> runs on Hugging Face's free ZeroGPU tier, which puts the Space to sleep after a period with no
+> visitors to save shared resources. Opening the link wakes it up automatically, but the first
+> request after a period of inactivity can take a minute or two while it restarts — that's
+> expected, not a bug.
+>
+> If it still doesn't come back:
+> 1. Open the Space page and check the status badge at the top (`Running` / `Building` /
+>    `Sleeping` / `Runtime error`).
+> 2. If it's stuck on `Sleeping`, refresh the page or wait ~30-60 seconds after your first
+>    request — that alone resolves it most of the time.
+> 3. If it shows `Runtime error` or `Build error`, open the **Logs** tab on the Space page to see
+>    why, or go to **Settings → Restart this Space** to force a clean restart.
+> 4. Restarting does not retrain or recompute anything: the three models run from precomputed
+>    artifacts, so a restart just reloads them and is safe to do at any time.
+
+---
+
 ## Table of contents
 
+- [Live demo](#live-demo)
 1. [Problem definition](#problem-definition)
 2. [Dataset](#dataset)
 3. [Data cleaning](#data-cleaning)

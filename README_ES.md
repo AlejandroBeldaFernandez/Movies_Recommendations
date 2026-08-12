@@ -22,8 +22,35 @@ ocultados.
 
 ---
 
+## Demo en vivo
+
+**[Pruébalo en vivo en Hugging Face Spaces](https://huggingface.co/spaces/Alessandrou24/movie__Recommender)**
+
+Elige una o varias películas y compara qué recomienda cada uno de los tres modelos lado a lado,
+o describe una película que no esté en el catálogo para una recomendación basada en contenido.
+
+> **Si el Space tarda en cargar o muestra un error, ten paciencia antes de asumir que está roto.**
+> Funciona sobre el nivel gratuito ZeroGPU de Hugging Face, que pone el Space a dormir tras un
+> periodo sin visitas para ahorrar recursos compartidos. Abrir el enlace lo despierta
+> automáticamente, pero la primera petición tras un periodo de inactividad puede tardar uno o dos
+> minutos mientras reinicia — es lo esperado, no un fallo.
+>
+> Si aun así no vuelve a funcionar:
+> 1. Abre la página del Space y mira el estado en la parte superior (`Running` / `Building` /
+>    `Sleeping` / `Runtime error`).
+> 2. Si se queda en `Sleeping`, recarga la página o espera unos 30-60 segundos tras tu primera
+>    petición — con eso suele bastar la mayoría de las veces.
+> 3. Si muestra `Runtime error` o `Build error`, abre la pestaña **Logs** de la página del Space
+>    para ver el motivo, o ve a **Settings → Restart this Space** para forzar un reinicio limpio.
+> 4. Reiniciar no reentrena ni recalcula nada: los tres modelos se sirven desde artefactos
+>    precalculados, así que reiniciar solo los recarga y se puede hacer en cualquier momento sin
+>    riesgo.
+
+---
+
 ## Tabla de contenidos
 
+- [Demo en vivo](#demo-en-vivo)
 1. [Definición del problema](#definición-del-problema)
 2. [Dataset](#dataset)
 3. [Limpieza de datos](#limpieza-de-datos)
